@@ -1,15 +1,16 @@
+# Chromatin State Prediction
 This project predicts 18 chromatin states (such as promoters and enhancers) directly from DNA sequence data using machine learning models. Chromatin data is unavailable for many cell types, whereas sequence-based prediction provides a scalable way to annotate genomes and support human pangenome research.
 
 ## Models
--Logistic Regression
--Random Forest
--Gradient Boosting
--Multilayer Perceptron (MLP)
--Convolutional Neural Network (CNN)
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
+- Multilayer Perceptron (MLP)
+- Convolutional Neural Network (CNN)
 
 ## Dataset
--280k+ training sequences
--100k+ test sequences
+- 280k+ training sequences
+- 100k+ test sequences
 
 ## Results
 - **Top Model:** MLP achieved 18% accuracy.
