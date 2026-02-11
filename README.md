@@ -19,12 +19,14 @@ This project predicts 18 chromatin states (such as promoters and enhancers) dire
 
 ## Project Structure
 **data/:** Directory containing the raw and processed genomic datasets.
-- kmer_train_counts1/2.csv: Processed datasets containing raw k-mer counts used as the input features for the models.
-- testsequences.csv & trainlabels.csv: The primary sequence data and their corresponding chromatin state labels.
-**rf_lr_gb.py:** Implementation and evaluation of traditional machine learning models: Random Forest, Logistic Regression, and Gradient Boosting.
-**mlp.py:** Implementation and evaluation of the Multi-Layer Perceptron (Neural Network) model.
-**cnn.py:** Implementation and evaluation of the one-hot encoding and CNN model.
-**predictions_result.csv:** The final output file containing the model's predicted chromatin states for the test dataset.
+- `kmer_train_counts1/2.csv`: Processed datasets containing raw k-mer counts used as the input features for the models.
+- `testsequences.csv` & `trainlabels.csv`: The primary sequence data and their corresponding chromatin state labels.
+
+**Model Implementation Scripts:**
+- `rf_lr_gb.py`: Implementation and evaluation of traditional machine learning models: Random Forest, Logistic Regression, and Gradient Boosting.
+- `mlp.py`: Implementation and evaluation of the Multi-Layer Perceptron (Neural Network) model.
+- `cnn.py`: Implementation and evaluation of the one-hot encoding and CNN model.
+- `predictions_result.csv`: The final output file containing the model's predicted chromatin states for the test dataset.
 
 
 ## Requirements
