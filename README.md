@@ -29,7 +29,7 @@ This project predicts 18 chromatin states (such as promoters and enhancers) dire
 - `cnn.py`: Implementation and evaluation of the one-hot encoding and CNN model.
 - `predictions_result.csv`: The final output file containing the model's predicted chromatin states for the test dataset.
 
-Due to GitHub's file size limitations, `kmer_train_counts3/4` and `trainsequences.csv` are hosted on Google Drive. You can download them [here](https://drive.google.com/drive/folders/1ho5tqd9btwwyApRLewMwwVa4awmCRQXH?usp=sharing)
+Due to GitHub's file size limitations, `kmer_train_counts3/4` and `trainsequences.csv` are hosted on Google Drive. You can download them [here](https://drive.google.com/drive/folders/1ho5tqd9btwwyApRLewMwwVa4awmCRQXH?usp=sharing).
 
 ## Requirements
 ```bash
