@@ -19,8 +19,9 @@ This project predicts 18 chromatin states (such as promoters and enhancers) dire
 
 ## Project Structure
 **data/:** Directory containing the raw and processed genomic datasets.
-- `kmer_train_counts1/2.csv`: Processed datasets containing raw k-mer counts used as the input features for the models.
+- `kmer_train_counts1/2/3/4.csv`: Processed datasets containing raw k-mer counts used as the input features for the models.
 - `testsequences.csv` & `trainlabels.csv`: The primary sequence data and their corresponding chromatin state labels.
+- `kmer_count.py`: Script that parses raw DNA sequences to calculate the counts of specific k-length substrings.
 
 **Model Implementation Scripts:**
 - `rf_lr_gb.py`: Implementation and evaluation of traditional machine learning models: Random Forest, Logistic Regression, and Gradient Boosting.
@@ -28,6 +29,7 @@ This project predicts 18 chromatin states (such as promoters and enhancers) dire
 - `cnn.py`: Implementation and evaluation of the one-hot encoding and CNN model.
 - `predictions_result.csv`: The final output file containing the model's predicted chromatin states for the test dataset.
 
+Due to GitHub's file size limitations, `kmer_train_counts3/4` and `trainsequences.csv` are hosted on Google Drive. You can download them [here](https://drive.google.com/drive/folders/1ho5tqd9btwwyApRLewMwwVa4awmCRQXH?)usp=sharing
 
 ## Requirements
 ```bash
