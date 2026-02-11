@@ -14,8 +14,18 @@ This project predicts 18 chromatin states (such as promoters and enhancers) dire
 
 ## Results
 - **Top Model:** MLP achieved 18% accuracy.
-- **Context** The leading performance in this task is approximately 20% accuracy, placing our MLP models within the top tier of expected performance for this dataset.
+- **Context:** The leading performance in this task is approximately 20% accuracy, placing our MLP models within the top tier of expected performance for this dataset.
 - **Key Insight:** The primary bottleneck is the spatial dimensionality of the genome. Current models rely on 1D sequence data or localized markers, which do not fully capture the 3D chromatin architecture that determines state transitions.
+
+## Project Structure
+**data/:** Directory containing the raw and processed genomic datasets.
+- kmer_train_counts1/2.csv: Processed datasets containing raw k-mer counts used as the input features for the models.
+- testsequences.csv & trainlabels.csv: The primary sequence data and their corresponding chromatin state labels.
+**rf_lr_gb.py:** Implementation and evaluation of traditional machine learning models: Random Forest, Logistic Regression, and Gradient Boosting.
+**mlp.py:** Implementation and evaluation of the Multi-Layer Perceptron (Neural Network) model.
+**cnn.py:** Implementation and evaluation of the one-hot encoding and CNN model.
+**predictions_result.csv:** The final output file containing the model's predicted chromatin states for the test dataset.
+
 
 ## Requirements
 ```bash
